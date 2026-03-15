@@ -1,4 +1,8 @@
-on: [workflow_dispatch]
+name: Build Firmware
+
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   build:
