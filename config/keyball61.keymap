@@ -47,7 +47,7 @@
 &kp TAB          &kp Q      &kp W     &kp E     &kp R     &kp T                                 &kp Y    &kp U   &kp I      &kp O    &kp P     &kp BACKSLASH
 &mt HYPER ESC    &kp A      &kp S     &kp D     &kp F     &kp G                                 &kp H    &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LEFT_SHIFT   &kp Z      &kp X     &kp C     &kp V     &kp B     &mo 3        &kp PAGE_UP    &kp N    &kp M   &kp COMMA  &kp DOT  &kp FSLH  &td_rshift_caps
-&mo 4            &kp LCTRL  &kp LALT  &kp LCMD  &kp BSPC  &lt 2 ENTER  &mo 1    &lt 5 SPACE    &none                                 &kp RALT  &kp RCMD
+&mo 4            &kp LCTRL  &kp LALT  &kp LCMD  &kp BSPC  &lt 2 ENTER  &mo 1    &lt 5 SPACE    &lt 2 BSPC                            &kp RALT  &kp RCMD
             >;
         };
 
@@ -68,7 +68,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans      &trans      &trans       &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &kp HOME    &kp PG_DN   &kp PG_UP   &kp END      &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(LEFT)  &kp LG(LEFT)  &kp LG(RIGHT)  &kp LA(RIGHT)  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                           &trans  &trans
             >;
         };
