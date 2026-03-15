@@ -106,6 +106,7 @@
         com-sequential;
         inversion-on;
         prechargep = <0x22>;
+        brightness = <128>;
     };
 };
 
