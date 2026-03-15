@@ -59,7 +59,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: NAV}
   - SYMBOL
   - {t: '$$mdi:keyboard-space$$', h: FUN}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace$$', h: NAV}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   SYMBOL:
@@ -170,8 +170,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+$$mdi:arrow-left-bold$$
-  - Alt+$$mdi:arrow-down-bold$$
-  - Alt+$$mdi:arrow-up-bold$$
+  - Gui+$$mdi:arrow-left-bold$$
+  - Gui+$$mdi:arrow-right-bold$$
   - Alt+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -183,7 +183,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   MOUSE:
