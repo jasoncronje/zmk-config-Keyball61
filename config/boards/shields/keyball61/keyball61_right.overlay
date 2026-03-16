@@ -110,6 +110,7 @@
 };
 
 #include <zephyr/dt-bindings/input/input-event-codes.h>
+#include <input/processors.dtsi>
 #include <input/processors/zmk-input-processor-keybind.dtsi>
 
 / {
