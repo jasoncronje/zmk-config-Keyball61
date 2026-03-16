@@ -64,6 +64,7 @@
         irq-gpios = <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         automouse-layer = <3>;
 	scroll-layers = <4>;
+	snipe-layers = <5>;
     };
 };
 
@@ -109,8 +110,6 @@
 };
 
 #include <zephyr/dt-bindings/input/input-event-codes.h>
-#include <input/processors.dtsi>
-#include <input/processors/zmk-input-processor-keybind.dtsi>
 
 / {
   input_processors {
@@ -121,26 +120,11 @@
       map = <INPUT_REL_WHEEL INPUT_REL_HWHEEL
              INPUT_REL_HWHEEL INPUT_REL_WHEEL>;
     };
-
-    zip_caret_keys: zip_caret_keys {
-      compatible = "zmk,input-processor-keybind";
-      #input-processor-cells = <0>;
-      track_remainders;
-      bindings = <&kp RIGHT>, <&kp LEFT>, <&kp UP>, <&kp DOWN>;
-      tick = <40>;
-      tap-ms = <10>;
-      wait-ms = <0>;
-    };
   };
 
   trackball_listener {
     compatible = "zmk,input-listener";
     device = <&trackball>;
-
-    caret_layer_config {
-      layers = <5>;
-      input-processors = <&zip_caret_keys>;
-    };
 
     scroll_layer_config {
       layers = <4>;
