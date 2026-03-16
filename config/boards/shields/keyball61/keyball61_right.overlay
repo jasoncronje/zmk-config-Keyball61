@@ -139,7 +139,7 @@
 
     caret_layer_config {
       layers = <6>;
-      input-processors = <&zip_caret_keys>;
+      input-processors = <&zip_xy_scaler 0 1>, <&zip_caret_keys>;
     };
 
     scroll_layer_config {
