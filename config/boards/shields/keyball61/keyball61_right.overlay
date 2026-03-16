@@ -126,7 +126,7 @@
       compatible = "zmk,input-processor-keybind";
       #input-processor-cells = <0>;
       track_remainders;
-      bindings = <&kp RIGHT>, <&kp LEFT>, <&kp DOWN>, <&kp UP>;
+      bindings = <&kp LEFT>, <&kp RIGHT>, <&kp DOWN>, <&kp UP>;
       tick = <40>;
       tap-ms = <10>;
       wait-ms = <0>;
@@ -139,7 +139,7 @@
 
     caret_layer_config {
       layers = <5>;
-      input-processors = <&zip_caret_keys>, <&zip_xy_scaler 0 1>;
+      input-processors = <&zip_caret_keys>, <&zip_xy_scaler 1 256>;
     };
 
     scroll_layer_config {
