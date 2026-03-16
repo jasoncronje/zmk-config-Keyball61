@@ -171,7 +171,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:brightness-7$$
-  - COFFEE
+  - '&lock_screen'
   - BRI INC
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
