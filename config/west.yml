@@ -6,8 +6,8 @@ manifest:
       url-base: https://github.com/kumamuk-git
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
-    - name: te9no
-      url-base: https://github.com/te9no
+    - name: zettaface
+      url-base: https://github.com/zettaface
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -20,7 +20,7 @@ manifest:
       remote: mctechnology17
       revision: main
     - name: zmk-input-processor-keybind
-      remote: te9no
+      remote: zettaface
       revision: main
   self:
     path: config

@@ -126,7 +126,7 @@
       compatible = "zmk,input-processor-keybind";
       #input-processor-cells = <0>;
       track_remainders;
-      bindings = <&kp RIGHT>, <&kp LEFT>, <&kp UP>, <&kp DOWN>;
+      bindings = <&kp RIGHT>, <&kp LEFT>, <&kp DOWN>, <&kp UP>;
       tick = <40>;
       tap-ms = <10>;
       wait-ms = <0>;
