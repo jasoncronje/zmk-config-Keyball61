@@ -75,6 +75,14 @@
             tapping-term-ms = <300>;
             bindings = <&none>, <&bt BT_CLR>;
         };
+
+        mo_mkp: mo_mkp {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <240>;
+            flavor = "balanced";
+            bindings = <&mo>, <&mkp>;
+        };
     };
 
     keymap {
@@ -118,7 +126,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &mo 4      &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &none   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK  &mo_mkp 4 MCLK  &mkp RCLK  &none   &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                   &trans  &trans
             >;
